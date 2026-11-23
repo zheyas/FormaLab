@@ -1,0 +1,4 @@
+Flask==3.1.3
+# VULN DEPENDENCY: intentionally outdated detector fixture; unused by app code.
+# Django 2.2.23 is affected by CVE-2021-33571 (fixed in 2.2.24).
+Django==2.2.23
